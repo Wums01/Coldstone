@@ -1,0 +1,89 @@
+a{
+  text-decoration: none;
+  color: white;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+.carousel img{
+  width: 100%;
+}
+
+.carousel::-webkit-scrollbar{
+  height: 0;
+  width: 0;
+}
+
+
+.navbar{
+height: 12vh;
+width: 100%;
+background-color: rgba(117, 3, 26, 0.92);
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+z-index: 50;
+}
+
+/* .navbar::after{
+  content: '';
+  background-color: white;
+  width: 100%;
+} */
+
+.button{
+background-image: url(https://coldstone.ordering.co/templates/eatn_go/img/custom/background1.png);
+height: 100vh;
+width: 100%;
+background-size: cover;
+/* position: relative; */
+}
+
+.button1{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+margin-left: 10px;
+}
+
+button{
+padding: 20px;
+border-radius: 15px;
+color: red;
+border-color: rgb(255, 0, 0, 0.594);
+cursor: pointer;
+}
+
+h2{
+font-style: italic;
+margin: 50px 20px;
+color: rgb(133, 28, 28);
+}
+
+.flex{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+row-gap: 50px;
+
+}
+
+h1{
+color: rgb(133, 28, 28);
+}
+
+h3{
+color: gray;
+}
+
+.flow{
+color: rgb(133, 28, 28);
+display: flex;
+flex-wrap: wrap;
+width: 100% ;
+justify-content: space-between;
+padding: 2rem; 
+}
