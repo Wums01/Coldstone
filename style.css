@@ -52,9 +52,13 @@ margin-left: 10px;
 button{
 padding: 20px;
 border-radius: 15px;
-color: red;
+color: rgb(128, 5, 5);
 border-color: rgb(255, 0, 0, 0.594);
 cursor: pointer;
+}
+
+.imgs{
+  width: 30%;
 }
 
 h2{
