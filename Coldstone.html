@@ -11,77 +11,61 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <body style="margin: 0; padding: 0;">
-  <!----------------------- Nav bar --------------------->
+
+  <!----------------------- Navbar --------------------->
   <nav class="navbar">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/logo.png" alt="ColdStone Logo">
+    <img src="img/logo.png" alt="ColdStone Logo">
+  
+         <div>
+           <a href="#" class="btn-link btn-account"><i class="fas fa-user"></i>  Account</a>
+          <a href="#" class="btn-link btn-menu"><i class="fas fa-bars"></i>  Menu</a>
+          <a href="#" class="btn-link btn-order"><i class="fas fa-shopping-cart"></i>  Order</a> 
+         </div>
+
     <!-- Hamburger menu icon -->
     <div class="nav-toggle">
       <i class="fa fa-bars"></i>  <!-- Using Font Awesome for the hamburger icon -->
     </div>
-  
-    <div class="nav-list">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Charity</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Sign Up</a></li>
-      </ul>
-    </div>
   </nav>
-  
-    
-  <!-- <nav class="navbar">
-    
-     <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/logo.png" alt=""
-    style="height: 80%; margin-left: 15px;">
 
-    <div style="margin-right: 15px; display: flex; gap: 20px; font-size: 17px;">
-        <a href="">Home</a>
-        <a href="">Menu</a>
-        <a href="">Charity</a>
-        <a href="">Login</a>
-        <a href="">Sign Up</a>
-    </div> 
-
-</nav> -->
-
-
-<section class="button">
-
-    
-    <div class="button1">
-       <div>
-        <button><img class="imgs" src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/delivery_pink.png" style="padding: 3px;"><span style="font-size: 1.5rem;">Delivery</span></button>
-       </div>
-
-       <div>
-        <button><img class="imgs" src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/pickup_pink.png" ><span style="font-size: 1.5rem;">PickUp</span></button>
-       </div>
-    </div>
-    
+  <!----------------------- Hero Section --------------------->
+  <section class="hero">
+  <div class="overlay">
+      <a href="#"><button class="order-btn">Order Now</button></a>
+     </div>
 </section>
 
+ <section class="last-order-section">
+  <h3   style="text-align: left; color: black; font-size: larger;margin-top: -2rem;">Last order</h3>
+  <p>No previous orders</p>
+ </section>
+
+  
+    
 
 <!--------------- Promotion Page ------------------>
-<h2>Promotion</h2>
+<section style="margin-top: -7rem;">
+  <h2>Promotion</h2>
 
-<section class="carousel" style="display: grid; grid-template-columns: repeat(12,450px); width: 100%;
+<section class="carousel" style=" display: grid; grid-template-columns: repeat(12,450px); width: 100%;
     gap: 20px; padding: 0px 20px; overflow: scroll;">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo1.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo2.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo3.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo4.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo5.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo6.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo7.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo8.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo9.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo9.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo11.png" alt="">
-    <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/custom/promo12.png" alt="">
+    <img src="img/promo1.png" alt="">
+    <img src="img/promo2.jpeg" alt="">
+    <img src="img/promo3.jpeg" alt="">
+    <img src="img/promo4.jpeg" alt="">
+    <img src="img/promo5.jpeg" alt="">
+    <img src="img/promo6.png" alt="">
+    <img src="img/promo7.jpeg" alt="">
+    <img src="img/promo8.jpeg" alt="">
+    <img src="img/promo9.jpeg" alt="">
+    <img src="img/promo10.jpeg" alt="">
+    <img src="img/promo11.png" alt="">
+    <img src="img/promo12.jpeg" alt="">
+</section>
 </section>
 
 
@@ -89,44 +73,44 @@
 <!------------- Menu ----------------->
 <h2>Favorite Menu</h2>
 
-<section class="flex">
+<section class="flex" style="display: flex; flex-wrap: wrap; gap: 20px; padding: 0px 20px;">
   <div style="margin-left: 100px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav1.png" alt=""
+      <img src="img/hr1liagommwinrdqkjkh.jpeg" alt=""
       style="height: 30vh;">
-      <h1>Oreo Overload</h1>
-      <h3>Sweet Cream ice cream with chocolate chips, <br>double the OREO Cookies and Fudge</h3>
+      <h1>Chessecake Fantasy</h1>
+      <h3>Sweet Cream ice cream with chocolate <br>chips, <br>double the OREO Cookies and Fudge</h3>
   </div>
 
   <div style="margin-left: 50px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav2.png" alt=""
+      <img src="img/jysoas6nt7fjw2utthqw.jpeg" alt=""
       style="height: 30vh;">
-      <h1>Strawberry ice cream</h1>  
-      <h3>Strawberry Ice Cream</h3>
+      <h1>Sweet Banana Cream</h1>  
+      <h3>A creamy rich smooth blend <br>Banana Ice Cream</h3>
   </div>
 
   <div style="margin-left: 150px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav3.png" alt=""
+      <img src="img/olsbo6jor2jnvigxudib.jpeg" alt=""
       style="height: 30vh;">
       <h1>Midnight Delight Cake</h1>
-      <h3>Layers of Moist Food & Chocolate Ice <br> Cream Wrapped in a Rich Fudge Ganache</h3>
+      <h3>Layers of Moist Food & Chocolate Ice <br>Cream Wrapped in a Rich Fudge Ganache</h3>
   </div>
 
   <div style="margin-left: 100px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav4.png" alt=""
+      <img src="img/MenuFav4.png" alt=""
       style="height: 30vh;">
       <h1>Milk and Cookies</h1>
       <h3>Milk and Cookies,Sweet Cream & OREOs</h3>
   </div>
 
   <div style="margin-left: 100px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav5.png" alt=""
+      <img src="img/fvgjhq4gilcwxuaf10q8.jpeg" alt=""
       style="height: 30vh;">
       <h1>Plain Waffle</h1>
       <h3>Plain waffle</h3>
   </div>
 
   <div style="margin-left: 100px;">
-      <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/MenuFav6.png" alt=""
+      <img src="img/MenuFav6.png" alt=""
       style="height: 30vh;">
       <h1>Double Chocolate Devotion</h1>
       <h3>Double chocolate devotion</h3>
@@ -135,19 +119,21 @@
   
 </section>
 
-<section class="flow" style="background-color: rgb(69, 1, 15);">
-<div>
+<!----------------- How We Make Them -------------------->
+<section class="flow" style="background-color: rgb(69, 1, 15);display: flex;flex-direction: column;">
+<div >
     <h2 style="font-style: italic; width: 100%; display: flex; justify-content: center;
   color: white; font-weight: 200;">How We Make Them</h2>
 </div>
-<div style="display: flex;gap: 3rem;">
+<div style="display: flex;justify-content: center;gap: 2rem;">
+  <div style="display: flex;gap: 3rem;">
     <div style="display: flex; justify-content: center; flex-direction: column;
 align-items: center;">
- <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/how1.png" alt=""
+ <img src="img/how1.png" alt=""
  style="width: 70%;">
  <div style="display: flex; flex-direction: column; text-align: center;">
    <h1 style="color: white;">Ice Cream</h1>
-   <h3 style="color: white; font-size: small;">Cold Stone Creamery is all 
+   <h3 style="color: white; font-size: larger;">Cold Stone Creamery is all 
       about delivering the finest ice 
        <br>cream, made just for you
    </h3> 
@@ -157,11 +143,11 @@ align-items: center;">
 
 <div style="display: flex; justify-content: center; flex-direction: column;
 align-items: center;">
-  <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/how2.png" alt=""
+  <img src="img/how2.png" alt=""
   style="width: 70%;">
   <div style="display: flex; flex-direction: column; text-align: center;">
       <h1 style="color: white;">Cakes</h1>
-      <h3 style="color: white; font-size: small;">Let's introduce 
+      <h3 style="color: white; font-size: larger;">Let's introduce 
           you to Lip-smacking, Mouthwatering, <br>
           Absolutely decadent world of ICE CREAM CAKES!  
       </h3> 
@@ -171,20 +157,21 @@ align-items: center;">
 
 <div style="display: flex; justify-content: center; flex-direction: column; 
   align-items: center;">
-  <img src="https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/how3.png" alt=""
+  <img src="img/how3.png" alt=""
   style="width: 70%;">
   <div style="display: flex; flex-direction: column; text-align: center;">
       <h1 style="color: white;">Shakes </h1>
-      <h3 style="color: white; font-size: small;">At Cold Stone Creamy, 
+      <h3 style="color: white; font-size: larger;">At Cold Stone Creamy, 
           we also offer a variety of indulgent 
           <br>drinks that will make you come back for more.
       </h3>
   </div>
 </div>
 </div>
+</div>
 </section>
 
-<div style="position: relative; width: 100%; height: 80vh; background-image: url('https://www.coldstonecreamery.ng/templates/eatn_go/img/coldstone/banner.png'); background-size: cover; background-position: center; text-align: center; overflow: hidden;">
+<div style="position: relative; width: 100%; height: 80vh; background-image: url('img/banner.png'); background-size: cover; background-position: center; text-align: center; overflow: hidden;">
     <!-- Dark overlay -->
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
     <!-- Text container -->
@@ -196,20 +183,20 @@ align-items: center;">
 
 
 
-<footer style="background-color: rgb(69, 1, 15); padding: 5rem;">
-    <ul style="list-style: none;display: flex;gap: 15rem;font-size: x-large;">
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Contact</a></li>
-        <li> <a href="">About Us</a></li>
-        <li> <a href="">Locations</a></li>
+<footer style="background-color: rgb(69, 1, 15); padding: 3rem;">
+    <ul style="list-style: none;display: flex;gap: 15rem;">
+        <li><a style="font-size: larger;" href="">Privacy</a></li>
+        <li><a style="font-size: larger;" href="">Contact</a></li>
+        <li> <a style="font-size: larger;" href="">About Us</a></li>
+        <li> <a style="font-size: larger;" href="">Locations</a></li>
         
     </ul>
 <div style="background-color:rgba(151, 24, 50, 0.92); padding: 2rem;display: flex; justify-content: center; align-items: center; gap: 5rem;">
-    <a href=""><i style="opacity: 0.4;" class="fa-brands fa-x-twitter"></i></a>
-    <a href=""><i style="opacity: 0.4;" class="fa-brands fa-youtube"></i></a>
-    <a href=""><i style="opacity: 0.4;" class="fa-brands fa-facebook-f"></i></a>
-    <a href=""><i style="opacity: 0.4;" class="fa-brands fa-facebook-f"></i></a>
-    <a href=""><i style="opacity: 0.4;" class="fa-regular fa-envelope"></i></a>
+    <a style="font-size: larger;" href=""><i style="opacity: 0.4;" class="fa-brands fa-x-twitter"></i></a>
+    <a style="font-size: larger;" href=""><i style="opacity: 0.4;" class="fa-brands fa-youtube"></i></a>
+    <a style="font-size: larger;" href=""><i style="opacity: 0.4;" class="fa-brands fa-facebook-f"></i></a>
+    <a style="font-size: larger;" href=""><i style="opacity: 0.4;" class="fa-brands fa-facebook-f"></i></a>
+    <a style="font-size: larger;" href=""><i style="opacity: 0.4;" class="fa-regular fa-envelope"></i></a>
 </div>
 </footer>
 
